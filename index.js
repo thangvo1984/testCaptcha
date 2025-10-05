@@ -7,11 +7,11 @@ const {
 } = require("@zennolab_com/capmonstercloud-client");
 
 const CAPMONSTER_API_KEY = "2347d801714d55f3b30a2fa04a5fd900";
-const WEBSITE_KEY = "6Lcg7CMUAAAAANphynKgn9YAgA4tQ2KI_iqRyTwd-7SK";
-const WEBSITE_URL =
-  "https://lessons.zennolab.com/captchas/recaptcha/v2_simple.php?level=high";
-// const WEBSITE_KEY = "6Ld7H5QrAAAAANbaGHqHHWsuviWCLZRTTXAh-7SK";
-// const WEBSITE_URL = "https://bhxh.pvi.com.vn/#/login";
+// const WEBSITE_KEY = "6Lcg7CMUAAAAANphynKgn9YAgA4tQ2KI_iqRyTwd-7SK";
+// const WEBSITE_URL =
+//   "https://lessons.zennolab.com/captchas/recaptcha/v2_simple.php?level=high";
+const WEBSITE_KEY = "6Ld7H5QrAAAAANbaGHqHHWsuviWCLZRTTXAh-7SK";
+const WEBSITE_URL = "https://bhxh.pvi.com.vn/#/login";
 
 async function solveRecaptcha() {
   const browser = await launch({
